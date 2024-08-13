@@ -1,0 +1,26 @@
+.box.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .box.product .img {
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    overflow: hidden; /* This hides any overflow from the images */
+    margin-bottom: 10px;
+  }
+  
+  .box.product .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+  }
+  
+  .box.product h4, 
+  .box.product span {
+    margin: 5px 0;
+  }
+  
